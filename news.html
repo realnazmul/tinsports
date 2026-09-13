@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest News – T.I.N. Sports</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER (same as index.html) -->
+<header>
+  <div class="container nav-bar">
+    
+    <div class="logo">
+      <a href="index.html" class="logo-link">
+        <img src="logo.png" alt="T.I.N. Sports Logo">
+        <h1>T.I.N. Sports</h1>
+      </a>
+    </div>
+
+      <!-- Mobile Nav Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+
+          <!-- Events Dropdown -->
+          <li class="dropdown">
+            <a href="events.html">Events ▾</a>
+            <ul class="dropdown-content">
+              <li><a href="events.html#football">Football</a></li>
+              <li><a href="events.html#cricket">Cricket</a></li>
+              <li><a href="events.html#basketball">Basketball</a></li>
+              <li><a href="events.html#volleyball">Volleyball</a></li>
+            </ul>
+          </li>
+
+  
+          <li><a class="active" href="news.html">News</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+  <!-- NEWS HERO -->
+  <section class="hero">
+    <h2>Latest News</h2>
+    <p>Stay up to date with achievements, announcements and club highlights.</p>
+  </section>
+
+
+
+
+  <!-- MAIN NEWS SECTION -->
+  <section class="container news">
+
+    <div class="row-head">
+      <h3 class="events-title">Club News & Highlights</h3>
+    </div>
+
+    <!-- Slider -->
+    <div class="news-slider">
+
+      <!-- LEFT BUTTON (decorative, CSS-only) -->
+      <div class="scroll-btn left">‹</div>
+
+      <div class="news-track">
+
+        <!-- NEWS 1 -->
+<article class="news-card">
+  <div class="news-media">
+    <a href="#img10"><img src="https://wefc.co.uk/wp-content/uploads/2024/02/Youth-tournament.jpg" alt="Kids Football Festival"></a>
+    <span class="chip chip-neutral">Tournament</span>
+  </div>
+  <div class="news-body">
+    <h4>Brilliant Turnout at the Kids’ Football Festival</h4>
+    <p>Over 100 children joined us for a weekend of football, fun, and friendship on the community pitch.</p>
+    <a href="news/1.html" class="read-more">Read More →</a>
+  </div>
+</article>
+
+<article class="news-card">
+  <div class="news-media">
+    <a href="#img11"><img src="https://www.basket.se/westra-sveriges/wp-content/uploads/sites/10/2022/12/Tavling-EB-1024x681.jpeg" alt="Basketball skills day"></a>
+    <span class="chip chip-neutral">Friendly</span>
+  </div>
+  <div class="news-body">
+    <h4>Basketball Skills Day a Slam Dunk Success</h4>
+    <p>Our young players showed off their dribbling and teamwork skills in a fun-filled training day with our coaches.</p>
+    <a href="news/2.html" class="read-more">Read More →</a>
+  </div>
+</article>
+
+<article class="news-card">
+  <div class="news-media">
+    <a href="#img12"><img src="https://www.somersetcountygazette.co.uk/resources/images/16990940/?type=responsive-gallery-fullscreen" alt="Cricket community day"></a>
+    <span class="chip chip-neutral">Community</span>
+  </div>
+  <div class="news-body">
+    <h4>Families Enjoy Sunshine at Community Cricket Day</h4>
+    <p>Parents and children spent a brilliant afternoon playing mini matches, enjoying food stalls, and celebrating teamwork.</p>
+    <a href="news/3.html" class="read-more">Read More →</a>
+  </div>
+</article>
+
+<article class="news-card">
+  <div class="news-media">
+    <a href="#img14"><img src="https://www.embe.org/wp-content/uploads/2021/01/IMG_0206-scaled.jpg" alt="Friendly volleyball day"></a>
+    <span class="chip chip-neutral">Friendly</span>
+  </div>
+  <div class="news-body">
+    <h4>Friendly Volleyball Day</h4>
+    <p>Children took part in a friendly volleyball match, enjoying a fun afternoon of rallies, teamwork, and plenty of encouragement from the sidelines.</p>
+    <a href="news/4.html" class="read-more">Read More →</a>
+  </div>
+</article>
+
+      </div>
+
+      <!-- RIGHT BUTTON -->
+      <div class="scroll-btn right">›</div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- ===== NEWS MODALS (CSS-only Read More) ===== -->
+
+  <!-- MODAL 1 -->
+  <div id="modal-news1" class="modal">
+    <a href="#" class="close">×</a>
+    <div class="modal-card">
+      <h3>U-12 Team Wins Regional Championship</h3>
+      <p>Our U-12 squad delivered the performance of the season, showcasing skill, teamwork and determination...</p>
+    </div>
+  </div>
+
+  <!-- MODAL 2 -->
+  <div id="modal-news2" class="modal">
+    <a href="#" class="close">×</a>
+    <div class="modal-card">
+      <h3>New Indoor Courts Opening</h3>
+      <p>We are expanding our indoor facility to offer protected, all-weather sessions throughout the year...</p>
+    </div>
+  </div>
+
+  <!-- MODAL 3 -->
+  <div id="modal-news3" class="modal">
+    <a href="#" class="close">×</a>
+    <div class="modal-card">
+      <h3>Summer Training Camps</h3>
+      <p>Our holiday camps provide children with high-energy training sessions, games, and skilled coaching...</p>
+    </div>
+  </div>
+
+  <!-- MODAL 4 -->
+  <div id="modal-news4" class="modal">
+    <a href="#" class="close">×</a>
+    <div class="modal-card">
+      <h3>Youth Mentor of the Year</h3>
+      <p>Congratulations to Coach Sarah for her dedication to young athletes and positive community impact...</p>
+    </div>
+  </div>
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-about">
+        <img src="logo.png" alt="T.I.N. Sports Logo">
+        <p>FT.I.N. Sports is a joyful sports community created just for kids! 
+        We host exciting sports events, games, and fun activities that help children stay active, 
+        make new friends and discover their love for teamwork. 
+        From friendly matches to community challenges, T.I.N. Sports is where young athletes grow, play, and shine together!</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+
+          <li><a href="events.html">Events</a></li>
+  
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>St Asaph Rd, London SE4 2EA</p>
+        <p><a href="mailto:info@tinsports.com">info@tinsports.com</a></p>
+        <p>020 1234 5678</p>
+      </div>
+    </div>
+    <p class="copyright">© 2025 T.I.N. Sports Junior Community</p>
+  </footer>
+
+
+</body>
+</html>
